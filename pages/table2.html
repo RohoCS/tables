@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблиця 2</title>
+  <link rel="stylesheet" href="../../style/style.css">
+</head>
+
+<body>
+  <header class="container">
+    <h1><a href="../table.html">Назад</a></h1>
+    <h1><a href="../pages/table1.html">Table1</a></h1>
+  </header>
+
+  <main>
+    <table class="table2">
+      <caption class="tablecaption">Таблиця 2</caption>
+      <tr>
+        <td colspan="2" class="w40">1-2</td>
+        <td class="body3">3</td>
+      </tr>
+      <tr>
+        <td class="w28">4</td>
+        <td colspan="2" rowspan="2" class="body5678">
+          <table class="table3">
+            <caption class="tablecaption">Таблиця дочірня</caption>
+            <tr>
+              <td>1</td>
+              <td rowspan="3">2-5-8</td>
+              <td rowspan="2" class="span2">3-6</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="span2">4-7</td>
+            </tr>
+            <tr>
+              <td>9</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="w28">7</td>
+      </tr>
+    </table>
+    <h3 class="backbody"><a href="../table.html" class="backlink">Повернутися</a></h3>
+  </main>
+</body>
+
+</html>
